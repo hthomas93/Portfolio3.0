@@ -102,6 +102,26 @@ img {
     width: 300px;
 }
 
+.imagetexts {
+    box-sizing: border-box;
+    /* This makes the text box appear as a banner over its ancestor element*/
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 100%;
+    background-color: #4aaaa5;
+    opacity:0.8;
+    margin: 10px;
+}
+
+.imgcontainer {
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
 .navbar {
     position: relative;
     max-width: 960px;
@@ -123,6 +143,11 @@ nav {
 
 p {
     line-height: 24px;
+}
+
+#portfolioContainer1 {
+    display: flex;
+    overflow: none;
 }
 
 section {
@@ -147,4 +172,12 @@ textarea {
 
 .forms {
     text-align: left;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33 em;
+    margin-inline-start: 0px;
+    font-weight: bold;
 }
