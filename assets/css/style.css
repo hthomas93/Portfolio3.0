@@ -108,7 +108,7 @@ img {
     position: absolute;
     bottom: 5px;
     left: 10px;
-    width: 100%;
+    width: 150%;
     background-color: #4aaaa5;
     opacity:0.8;
     margin: 10px;
@@ -120,6 +120,7 @@ img {
     object-fit: cover;
     width: 200px;
     height: 200px;
+    margin: 10px;
 }
 
 .navbar {
@@ -148,6 +149,8 @@ p {
 #portfolioContainer1 {
     display: flex;
     overflow: none;
+    flex-flow: row wrap;
+    justify-content: left;
 }
 
 section {
