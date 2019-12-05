@@ -1,12 +1,73 @@
-* {
-    box-sizing: border-box;
-}
-
-.header {
+.name {
+    position: absolute;
     background:#4aaaa5;
-
+    width: 30%;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    height: 60px;
 }
 
-.buttons {
+#about {
+    float:right;
+    height: 60px;
+    width: 60px;
+    background: red;
+    padding: 10px;
+    text-align: center;
+}
+
+#portfolio {
+    float:right;
+    height: 60px;
+    width: 60px;
+    background: red;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact {
+    float:right;
+    height: 60px;
+    width: 60px;
+    background: red;
+    padding: 10px;
+    text-align: center;
+}
+
+.container1 {
+    clear:both;
+    background: pink;
+    height: 600px;
+    border-top: 1px solid gray;
+    border-bottom: 4px solid #4aaaa5;
+}
+
+.container2 {
+    background:gray;
+    width: 75%;
+    margin: 30% auto;
+    padding: 10px;
+    position: absolute;
+    top: -20%;
+    left: 11%;
+}
+
+.navbar {
+    font-size: 15px;
     
+}
+
+footer {
+    height: 24px;
+    background: gray;
+}
+
+img {
+    float:left;
+    border: 5px solid white;
+}
+
+p {
+    line-height: 24px;
 }

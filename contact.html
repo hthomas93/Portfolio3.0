@@ -5,32 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <div class="header">
+  <div class="name">
         <h1>Harrison Thomas</h1>
     </div>
+
+    <br>
     
-    <div class="buttons">
-        <ul>
+        <nav>
             <a href="">About</a>
             <a href="">Portfolio</a>
             <a href="">Contact</a>
-        </ul>
-    </div>
+        </nav>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fullname">Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your name">
+    <br>
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+    <br>
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+    <br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>       
      
-
-    <h2>Contact</h2>
-    <h3>Name</h3>
-    <input type="text">
-    <h3>Email</h3>
-    <input type="text">
-    <h3>Message</h3>
-    <input type="text">
-    <input type="submit">
-
-    
 
 
 
