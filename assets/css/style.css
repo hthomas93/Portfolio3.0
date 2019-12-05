@@ -1,73 +1,110 @@
-.name {
-    position: absolute;
-    background:#4aaaa5;
-    width: 30%;
+* {
+    box-sizing: border-box;
     text-align: center;
-    color:white;
-    padding: 10px;
-    height: 60px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#about {
-    float:right;
-    height: 60px;
-    width: 60px;
-    background: red;
+a {
     padding: 10px;
-    text-align: center;
+    text-decoration: none;
 }
 
-#portfolio {
-    float:right;
-    height: 60px;
-    width: 60px;
-    background: red;
-    padding: 10px;
-    text-align: center;
+a:not(:last-child) {
+    border-right: 1px solid #c2bfbf;
 }
 
-#contact {
-    float:right;
-    height: 60px;
-    width: 60px;
-    background: red;
-    padding: 10px;
-    text-align: center;
+body {
+    margin: 0px;
+    background-image: url("https://hthomas93.github.io/assets/images/beanstalk.png");
+    display: block;
 }
 
 .container1 {
-    clear:both;
-    background: pink;
-    height: 600px;
-    border-top: 1px solid gray;
-    border-bottom: 4px solid #4aaaa5;
-}
-
-.container2 {
-    background:gray;
-    width: 75%;
-    margin: 30% auto;
-    padding: 10px;
-    position: absolute;
-    top: -20%;
-    left: 11%;
-}
-
-.navbar {
-    font-size: 15px;
-    
+    width: 960px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: auto;
+    height: auto;
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #d1d0d0;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 footer {
-    height: 24px;
-    background: gray;
+    position: relative;
+    display: block;
+}
+
+header {
+    position: relative;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    height: 60px;
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #d1d0d0;
+    margin-bottom: 50px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    text-align: left;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 24px;
 }
 
 img {
     float:left;
-    border: 5px solid white;
 }
 
-p {
-    line-height: 24px;
+.navbar {
+    position: relative;
+    max-width: 960px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d1d0d0;
+
+}
+
+nav {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
+section {
+    display: box;
 }
