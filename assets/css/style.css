@@ -19,16 +19,23 @@ body {
 }
 
 .container1 {
+    position:relative;
+    clear:none;
     width: 960px;
     box-sizing: border-box;
     overflow: auto;
-    margin: auto;
+    margin: 25px;
     height: auto;
     background-color: #ffffff;
-    padding: 50px;
+    padding: 25px;
     border: 1px solid #d1d0d0;
     border-radius: 4px;
     margin-bottom: 30px;
+    display: inline-block;
+
+    object-fit: cover;
+    margin: 20px;
+    border: 10px solid white;
 }
 
 footer {
@@ -100,6 +107,9 @@ img {
     margin: 20px;
     height: 250px;
     width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .imagetexts {
@@ -107,11 +117,9 @@ img {
     /* This makes the text box appear as a banner over its ancestor element*/
     position: absolute;
     bottom: 5px;
-    left: 10px;
-    width: 150%;
+    width: 111%;
     background-color: #4aaaa5;
     opacity:0.8;
-    margin: 10px;
 }
 
 .imgcontainer {
@@ -120,7 +128,8 @@ img {
     object-fit: cover;
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 20px;
+    border: 10px solid white;
 }
 
 .navbar {
@@ -149,7 +158,7 @@ p {
 #portfolioContainer1 {
     display: flex;
     overflow: none;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: left;
 }
 
@@ -163,6 +172,13 @@ section {
     background-color: #4aaaa5;
     padding: 15px;
     font-size: 20px;
+}
+
+.icons {
+    float:left;
+    margin: 0px;
+    height: 200px;
+    width: 200px;    
 }
 
 input {
