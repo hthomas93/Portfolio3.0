@@ -200,3 +200,8 @@ h4 {
     margin-inline-start: 0px;
     font-weight: bold;
 }
+
+a {
+    color:white;
+    border-right:none;
+}
